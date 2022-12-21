@@ -1,0 +1,10 @@
+{
+    "name":"Abhishek",
+    "salary": "40k",
+    "rickshaw": null,
+    "car":"Audi",
+    "shop":["Saaree","pajama"],
+    "items":{
+        "cake":"biscuit"
+    }
+}
