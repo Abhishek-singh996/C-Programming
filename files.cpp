@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(){
-    // ofstream myFile("mytxt.txt"); //used for writning into file
     string myTxt;
     ifstream myFile("mytxt.txt"); //used for reading a file
     while (getline (myFile, myTxt))
@@ -15,6 +14,7 @@ int main(){
     myFile.close();
     
 
+    // ofstream myFile("mytxt.txt"); //used for writning into file
     // myFile << "Hello Abhishek!"<<endl<<"you are welcome";
     // myFile.close();
 }
